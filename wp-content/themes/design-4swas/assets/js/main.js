@@ -1,0 +1,54 @@
+$('.home-slider').owlCarousel({
+    loop:true,
+    margin:0,
+    nav:false,
+    autoplay:true,
+    responsive:{
+        0:{
+            items:1
+        },
+        600:{
+            items:1
+        },
+        1000:{
+            items:1
+        }
+    }
+})
+
+$('.gallery-slider').owlCarousel({
+    loop:true,
+    margin:20,
+    nav:false,
+    autoplay:true,
+    responsive:{
+        0:{
+            items:1
+        },
+        600:{
+            items:2
+        },
+        1000:{
+            items:2
+        }
+    }
+})
+
+$('.testimonial-slider').owlCarousel({
+    loop:true,
+    margin:30,
+    nav:false,
+    items:true,
+    autoplay:true,
+    responsive:{
+        0:{
+            items:1
+        },
+        600:{
+            items:2
+        },
+        1000:{
+            items:3
+        }
+    }
+})
